@@ -1,7 +1,7 @@
 export interface NavLink {
   readonly label: string;
   readonly href: string;
-  readonly external?: boolean;
+  readonly external: boolean;
 }
 
 export interface StepItem {
@@ -29,8 +29,8 @@ export const LANDING_CONTENT = {
   },
   header: {
     navLinks: [
-      { label: "How it works", href: "#how-it-works" },
-      { label: "Features", href: "#features" },
+      { label: "How it works", href: "#how-it-works", external: false },
+      { label: "Features", href: "#features", external: false },
       { label: "Docs", href: "https://github.com/shivayogihugar47-spec/Agniparikshe#readme", external: true },
       { label: "GitHub", href: "https://github.com/shivayogihugar47-spec/Agniparikshe", external: true },
     ] as const satisfies readonly NavLink[],
