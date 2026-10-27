@@ -1,0 +1,66 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-background: #FFFFFF;
+  --color-background-soft: #FAFAF9;
+  --color-surface: #FFFFFF;
+  --color-border: #E7E5E4;
+  --color-text: #1C1917;
+  --color-text-muted: #57534E;
+  --color-brand: #C2410C;
+  --color-brand-hover: #9A3412;
+  --color-brand-tint: #FFF1E8;
+  --color-flame: #EA580C;
+
+  --color-critical: #B91C1C;
+  --color-critical-tint: #FEE2E2;
+  --color-high: #B45309;
+  --color-high-tint: #FEF3C7;
+  --color-medium: #A16207;
+  --color-medium-tint: #FEF9C3;
+  --color-low: #0369A1;
+  --color-low-tint: #E0F2FE;
+  --color-success: #15803D;
+  --color-success-tint: #DCFCE7;
+
+  --font-sans: var(--font-inter), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+:root {
+  --background: #FFFFFF;
+  --background-soft: #FAFAF9;
+  --surface: #FFFFFF;
+  --border: #E7E5E4;
+  --text: #1C1917;
+  --text-muted: #57534E;
+  --foreground: #1C1917;
+  --card: #FFFFFF;
+  --card-foreground: #1C1917;
+  --popover: #FFFFFF;
+  --popover-foreground: #1C1917;
+  --primary: #C2410C;
+  --primary-foreground: #FFFFFF;
+  --secondary: #FFFFFF;
+  --secondary-foreground: #1C1917;
+  --muted: #FAFAF9;
+  --muted-foreground: #57534E;
+  --accent: #FFF1E8;
+  --accent-foreground: #C2410C;
+  --destructive: #B91C1C;
+  --destructive-foreground: #FFFFFF;
+  --input: #E7E5E4;
+  --ring: #C2410C;
+  --radius: 8px;
+}
+
+@layer base {
+  *, ::before, ::after {
+    border-color: #E7E5E4;
+  }
+  body {
+    background-color: #FFFFFF;
+    color: #1C1917;
+  }
+}
