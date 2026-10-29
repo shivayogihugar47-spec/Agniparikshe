@@ -31,7 +31,7 @@ export function Features() {
       <div className="mx-auto max-w-[1200px] px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-text sm:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight text-text text-balance sm:text-4xl">
             {features.title}
           </h2>
           <p className="mt-4 text-base text-text-muted sm:text-lg">

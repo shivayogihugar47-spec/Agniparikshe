@@ -20,7 +20,7 @@ export function CtaSection({ onScanClick }: CtaSectionProps) {
           </div>
 
           {/* Headline */}
-          <h2 className="text-3xl font-extrabold tracking-tight text-text sm:text-4xl lg:text-5xl">
+          <h2 className="text-3xl font-extrabold tracking-tight text-text text-balance sm:text-4xl lg:text-5xl">
             {cta.headline}
           </h2>
 
