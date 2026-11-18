@@ -367,7 +367,7 @@ router.get("/orders/:id", authenticateToken, async (req, res) => {
 
           <div className="p-4 bg-stone-900 text-stone-100 rounded-xl font-mono text-xs overflow-x-auto space-y-2">
             <div className="text-stone-400">
-              // Active Scan Data from getScan(&apos;scan-completed-01&apos;):
+              {"// Active Scan Data from getScan('scan-completed-01'):"}
             </div>
             {loadingScan ? (
               <div className="text-amber-400 animate-pulse">Loading mock scan from client...</div>
