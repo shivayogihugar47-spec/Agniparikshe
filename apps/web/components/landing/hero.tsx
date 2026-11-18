@@ -26,7 +26,7 @@ export function Hero({ onScanClick }: HeroProps) {
   };
 
   return (
-    <section className="relative overflow-hidden py-14 lg:py-24">
+    <section className="relative overflow-hidden pt-14 pb-10 lg:pt-24 lg:pb-14">
       <div className="mx-auto max-w-[1200px] px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-12 lg:gap-8">
           {/* Left Column: Copy & Actions */}
@@ -38,7 +38,7 @@ export function Hero({ onScanClick }: HeroProps) {
             </div>
 
             {/* Headline */}
-            <h1 className="text-4xl font-extrabold tracking-tight text-text sm:text-5xl lg:text-6xl lg:leading-[1.1]">
+            <h1 className="text-4xl font-extrabold tracking-tight text-text text-balance sm:text-5xl lg:text-6xl lg:leading-[1.1]">
               {hero.headline}
             </h1>
 
@@ -112,7 +112,7 @@ export function Hero({ onScanClick }: HeroProps) {
                     <span className="font-mono">PROVEN EXPLOIT PAYLOAD</span>
                     <span className="font-mono text-brand">STATUS: CONFIRMED</span>
                   </div>
-                  <pre className="overflow-x-auto font-mono text-[11px] leading-relaxed text-stone-200">
+                  <pre className="whitespace-pre-wrap break-all font-mono text-[11px] leading-relaxed text-stone-200">
                     <code>{hero.previewCard.attackPayload}</code>
                   </pre>
                 </div>
