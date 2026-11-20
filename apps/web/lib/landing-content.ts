@@ -162,12 +162,52 @@ export const LANDING_CONTENT = {
     buttonText: "Scan a repo",
   },
   footer: {
-    links: [
-      { label: "Docs", href: "https://github.com/shivayogihugar47-spec/Agniparikshe#readme", external: true },
-      { label: "GitHub", href: "https://github.com/shivayogihugar47-spec/Agniparikshe", external: true },
-      { label: "Responsible use", href: "#responsible-use", external: false },
+    copyrightYear: 2026,
+    description:
+      "The AI security engineer for vibe-coded apps. It scans your whole repository, proves each flaw by attacking a safe sandbox copy, fixes it, and checks the fix.",
+    openSourcePill: "Free and open source",
+    githubUrl: "https://github.com/shivayogihugar47-spec/Agniparikshe",
+    product: {
+      heading: "Product",
+      links: [
+        { label: "How it works", href: "#how-it-works", external: false },
+        { label: "Features", href: "#features", external: false },
+        { label: "VS Code extension", href: "#", external: false }, // TODO: link when page exists
+        { label: "GitHub App", href: "#", external: false }, // TODO: link when page exists
+        { label: "Sample report", href: "#", external: false }, // TODO: link when page exists
+      ] as const satisfies readonly NavLink[],
+    },
+    resources: {
+      heading: "Resources",
+      links: [
+        { label: "Documentation", href: "https://github.com/shivayogihugar47-spec/Agniparikshe#readme", external: true },
+        { label: "How findings are proven", href: "#", external: false }, // TODO: link when page exists
+        { label: "Severity and scoring", href: "#", external: false }, // TODO: link when page exists
+        { label: "Supported stack", href: "#", external: false }, // TODO: link when page exists
+        { label: "Responsible use", href: "#", external: false }, // TODO: link when page exists
+      ] as const satisfies readonly NavLink[],
+    },
+    openSource: {
+      heading: "Open source",
+      links: [
+        { label: "GitHub repository", href: "https://github.com/shivayogihugar47-spec/Agniparikshe", external: true },
+        { label: "Report an issue", href: "https://github.com/shivayogihugar47-spec/Agniparikshe/issues", external: true },
+        { label: "Contribute", href: "#", external: false }, // TODO: link when page exists
+        { label: "Roadmap", href: "#", external: false }, // TODO: link when page exists
+      ] as const satisfies readonly NavLink[],
+    },
+    legal: {
+      heading: "Legal",
+      links: [
+        { label: "Privacy policy", href: "#", external: false }, // TODO: link when page exists
+        { label: "Terms of use", href: "#", external: false }, // TODO: link when page exists
+        { label: "Responsible use policy", href: "#", external: false }, // TODO: link when page exists
+      ] as const satisfies readonly NavLink[],
+    },
+    bottomLinks: [
+      { label: "Privacy", href: "#", external: false }, // TODO: link when page exists
+      { label: "Terms", href: "#", external: false }, // TODO: link when page exists
+      { label: "Responsible use", href: "#", external: false }, // TODO: link when page exists
     ] as const satisfies readonly NavLink[],
-    collegeCredit: "Built as a college project at KLS GIT.",
-    copyrightNotice: "Agniparikshe - Security for AI-built software.",
   },
 } as const;
